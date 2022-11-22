@@ -3,6 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://${app.host-discovery}:8761/eureka/
+      defaultZone: http://discover:8761/eureka/
     instance:
-      hostname: ${app.host-discovery}
+      hostname: discover
