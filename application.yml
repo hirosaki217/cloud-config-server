@@ -5,4 +5,4 @@ eureka:
     service-url:
       defaultZone: http://${app.host-discovery}:8761/eureka/
     instance:
-      hostname: localhost
+      hostname: ${app.host-discovery}
